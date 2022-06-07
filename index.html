@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="/action_page.php">
+        <label for="fname">Total de aulas</label><br>
+        <input type="number" id="totalDeAulas"><br>
+        
+        <label for="lname">Faltas</label><br>
+        <input type="number" id="faltas"><br><br>
+
+        <label for="lname">media 1º semestre</label><br>
+        <input type="number" id="media1"><br><br>
+
+        <label for="lname">media 2º semestre</label><br>
+        <input type="number" id="media2"><br><br>
+
+        
+
+        <input type="button" value="Calcular" onclick="calcularAluno()">
+        <input type="text" id="resultado" ><br><br> <br> <br>
+
+        <label for="lname">Nota no exame</label><br>
+        <input type="number" id="exameNota"><br><br>
+
+        <input type="button" value="Exame" onclick="calcularExame()">
+        <input type="text" id="resultadoExame" ><br><br>
+      </form> 
+</body>
+</html>
