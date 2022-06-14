@@ -1,13 +1,5 @@
 
 
-// newFunction();
-// function newFunction() {
-//     (function () {
-//         const random = (num) => Math.floor(Math.random() * num);
-//         var aleatorio = random
-//     })();
-// }
-
 function chamarApi(){
 
     var random = (num) => Math.floor(Math.random() * num);
