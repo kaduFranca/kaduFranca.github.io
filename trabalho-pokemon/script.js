@@ -3,7 +3,7 @@
 function chamarApi(){
 
     var random = (num) => Math.floor(Math.random() * num);
-    var aleatorio = random(100)
+    var aleatorio = random(899)
   
     var url = `https://pokeapi.co/api/v2/pokemon/${aleatorio}`
 	fetch(url)
