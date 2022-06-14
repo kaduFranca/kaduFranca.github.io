@@ -30,9 +30,9 @@ function exibirImagem(data){
    }
   }
 document.getElementById("des2").innerHTML = "<b>Experiência Base: </b>" + data.base_experience;
-document.getElementById("des2").innerHTML = "<b>Altura: </b>" + data.height + "dm";
-document.getElementById("des3").innerHTML = "<b>Vida: </b>" + data.stats[0].base_stat + "hp";
-document.getElementById("des4").innerHTML = "<b>Ataque: </b>" + data.stats[1].base_stat;
+document.getElementById("des3").innerHTML = "<b>Altura: </b>" + data.height + "dm";
+document.getElementById("des4").innerHTML = "<b>Vida: </b>" + data.stats[0].base_stat + "hp";
+document.getElementById("des5").innerHTML = "<b>Ataque: </b>" + data.stats[1].base_stat;
   
   
 }
