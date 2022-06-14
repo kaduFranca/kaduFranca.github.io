@@ -27,7 +27,7 @@ function exibirImagem(data){
   if(data.types[0].type.name === data.types[0].type.name) {
 	document.getElementById("tipo").innerHTML ="Type: " + data.types[0].type.name;
   } else {
-    document.getElementById("tipo").innerHTML = "Tipo: " + data.types[0].type.name + "  |  " + data.types[0].type.name;
+    document.getElementById("tipo").innerHTML = "Tipo: " + data.types[0].type.name + "  |  " + data.types[1].type.name;
   }
 
   document.getElementById("des1").innerHTML = ""
